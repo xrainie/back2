@@ -1,7 +1,6 @@
 <?php
 
 // Отправляем правильную кодировку.
-header('HTTP/1.1 404 Not Found');
 header('Content-Type: text/html; charset=UTF-8');
 
 // Выводим все полученные через POST параметры.
